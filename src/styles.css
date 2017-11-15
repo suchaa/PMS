@@ -1,0 +1,75 @@
+/* You can add global styles to this file, and also import other style files */
+
+.btn-bule{
+    background-color: #1976d2;
+    color: #ffffff;
+    font-size: 16px;
+}
+.btn-gray{
+    background-color: #7f7f7f;
+    color: #ffffff;
+    font-size: 16px;
+}
+.btn-white{
+    background-color: #ffffff;
+    color: #42639b;
+    font-weight: bold;
+}
+.btn-checked-out{
+    background-color: #de0808;
+    color: #ffffff;
+}
+.btn-checked-in{
+    background-color: #7bb62f;
+    color: #ffffff;
+}
+.btn-due-out{
+    background-color: #737373;
+    color: #ffffff;
+}
+.form-control{
+    /* margin-top: 3px; */
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: #595959
+}
+.text-cash{
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: #595959;
+    text-align: right;
+}
+label, .label{
+    text-align: right;
+    color: 	#42639b;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 6px;
+    /* margin-bottom: 3px; */
+}
+.card{
+   width: 100%;
+   margin: 10px;
+}
+.card-body{
+    border-radius: 4px;
+    border-style: solid;
+    border-color: #d2dae8;
+    background-color: white;
+}
+.card-title{
+    font-size: 20px;
+    color: #293b5a;
+}
+th{
+    color: 	#293b5a;
+}
+.test{
+    background-color: gray;
+}
+.test2{
+    background-color: rgb(143, 34, 34);
+}
+.test3{
+    background-color: rgb(230, 174, 174);
+}

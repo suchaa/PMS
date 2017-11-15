@@ -1,0 +1,354 @@
+<!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">PMS</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="#">Reservation <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="#">Front Desk</a>
+      <a class="nav-item nav-link" href="#">Cashiering</a>
+      <a class="nav-item nav-link" href="#">Room Management</a>
+      <a class="nav-item nav-link" href="#">AR</a>
+      <a class="nav-item nav-link" href="#">Commission</a>
+      <a class="nav-item nav-link" href="#">End of day</a>
+      <a class="nav-item nav-link" href="#">Exit</a>
+    </div>
+  </div>
+</nav> -->
+
+<!-- <div class="row">
+  <div class="col col-1">
+    <div class="nav flex-column bg-dark" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+      <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a>
+      <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a>
+      <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a>
+      <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
+    </div>
+  </div>
+  <div class="col col-11">
+    <div class="tab-content" id="v-pills-tabContent">
+      <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">...</div>
+      <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
+      <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
+      <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
+    </div>
+  </div>
+</div> -->
+
+<div class="row">
+  <div class="col-6 col-md-4">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">Search</h4>
+        <div class="row">
+          <label class="col-sm-3">Name</label>
+          <div class="col-sm-6">
+            <input type="text" class="form-control" placeholder="" value="Johny">
+          </div>
+        </div>
+        <div class="row">
+          <label class="col-sm-3">First Name</label>
+          <div class="col-sm-6">
+            <input type="text" class="form-control" placeholder="" value="">
+          </div>
+        </div>
+        <div class="row">
+          <label class="col-sm-3">Room</label>
+          <div class="col-sm-5">
+            <select id="inputState" class="form-control">
+              <option></option>
+              <option>...</option>
+            </select>
+          </div>
+          <div class="col-1">
+            <label>Type</label>
+          </div>
+          <div class="col-3">
+            <select id="inputState" class="form-control">
+              <option></option>
+              <option>...</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <label class="col-sm-3">ConfifiCxl No.</label>
+          <div class="col-sm-6">
+            <input type="text" class="form-control" placeholder="" value="">
+          </div>
+        </div>
+        <div class="row">
+          <label class="col-sm-3">Stay On</label>
+          <div class="col-sm-6">
+            <input type="text" class="form-control" placeholder="" value="">
+          </div>
+        </div>
+        <div class="row">
+          <label class="col-sm-3">Company</label>
+          <div class="col-sm-6">
+            <input type="text" class="form-control" placeholder="" value="">
+          </div>
+        </div>
+        <div class="row">
+          <label class="col-sm-3">Agent</label>
+          <div class="col-sm-6">
+            <input type="text" class="form-control" placeholder="" value="">
+          </div>
+        </div>
+        <div class="row">
+          <label class="col-sm-3">Block Code</label>
+          <div class="col-sm-6">
+            <select id="inputState" class="form-control">
+                <option></option>
+              <option>...</option>
+            </select>
+          </div>
+        </div>
+        <br>
+        <button type="button" class="btn btn-bule offset-sm-2 col-sm-4 ">Search</button>
+        <button type="button" class="btn btn-gray col-sm-4 ">Clear</button>
+        <p></p>
+      <!-- </div> -->
+
+      <!-- <div class="dropdown-divider"></div> -->
+
+      <!-- <div class="card-body"> -->
+        <table class="table table-sm  table-hover">
+          <thead>
+            <tr>
+              <th scope="col"></th>
+              <th scope="col">
+                <div class="dropdown">
+                  <button class="btn btn-white th dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    NAME
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">...</a>
+                  </div>
+                </div>
+              </th>
+              <th scope="col">
+                <div class="dropdown">
+                  <button class="btn btn-white th dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    ROOM
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">...</a>
+                  </div>
+                </div>
+              </th>
+              <th scope="col">
+                <button class="btn btn-white th" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  STATUS
+                </button>
+              </th>
+            </tr>
+          </thead>
+          <tbody *ngFor="let item of data">
+            <tr>
+              <th scope="row">
+                <input type="checkbox" value="">
+              </th>
+              <td>{{item.name}}</td>
+              <td>{{item.room}}</td>
+              <td>
+                <button type="button" class="btn btn-due-out btn-sm btn-block">{{item.status}}</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-md-8">
+    <div class="col">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">Reservation</h4>
+          <div class="row">
+            <div class="col-sm-5 col-md-6">
+              <div class="row">
+                <label class="col-sm-3">Name</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" placeholder="" value="Johny ,Rob">
+                </div>
+              </div>
+              <div class="row">
+                <label class="col-sm-3">Address</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" placeholder="" value="Europadarm 4">
+                </div>
+              </div>
+              <div class="row">
+                <label class="col-sm-3">Building</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" placeholder="" value="">
+                </div>
+              </div>
+              <div class="row">
+                <label class="col-sm-3">City</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" placeholder="" value="Neuss">
+                </div>
+              </div>
+              <div class="row">
+                <label class="col-sm-4">Zipcode/State/Country</label>
+                <div class="col-sm-8">
+                  <div class="form-row">
+                    <div class="col-6">
+                      <input type="text" class="form-control" placeholder="" value="41403">
+                    </div>
+                    <div class="col">
+                      <select id="inputState" class="form-control">
+                        <option selected>NW</option>
+                        <option>...</option>
+                      </select>
+                    </div>
+                    <div class="col">
+                      <select id="inputState" class="form-control">
+                        <option selected>DE</option>
+                        <option>...</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <label class="col-sm-3">Comm</label>
+                <div class="col-sm-9">
+                  <div class="form-row">
+                    <div class="col-6">
+                      <select id="inputState" class="form-control">
+                        <option selected>MOBILE</option>
+                        <option>...</option>
+                      </select>
+                    </div>
+                    <div class="col-6">
+                      <input type="text" class="form-control" placeholder="" value="+68 6552 9685">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <label class="col-sm-3">Comm</label>
+                <div class="col-sm-9">
+                  <div class="form-row">
+                    <div class="col-6">
+                      <select id="inputState" class="form-control">
+                        <option selected>EMAIL</option>
+                        <option>...</option>
+                      </select>
+                    </div>
+                    <div class="col-6">
+                      <input type="text" class="form-control" placeholder="" value="john@micro.co.de">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0">
+              <div class="row">
+                <label class="col-sm-3">Arrival</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" placeholder="" value="07/12/2017">
+                </div>
+              </div>
+              <div class="row">
+                <label class="col-sm-3">Night</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" placeholder="" value="5">
+                </div>
+              </div>
+              <div class="row">
+                <label class="col-sm-3">Departure</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" placeholder="" value="12/12/2017">
+                </div>
+              </div>
+              <div class="row">
+                <label class="col-sm-3">Rate</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" placeholder="" value="5">
+                </div>
+              </div>
+              <div class="row">
+                <label class="col-sm-3">Rate Code</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" placeholder="" value="0505">
+                </div>
+              </div>
+              <div class="row">
+                <label class="col-sm-3">Block code</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" placeholder="" value="1509APG">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <div class="col-6">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">Calendar</h4>
+              <h6 class="card-subtitle mb-2 text-muted">Calendar</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">Cashiering</h4>
+              <div class="row">
+                <label class="col-sm-3">Window 1</label>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control text-cash" placeholder="" value="263.00">
+                </div>
+              </div>
+              <div class="row">
+                <label class="col-sm-3">Window 2</label>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control text-cash" placeholder="" value="230.00">
+                </div>
+              </div>
+              <div class="row">
+                <label class="col-sm-3">Window 3</label>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control text-cash" placeholder="" value="562.00">
+                </div>
+              </div>
+              <div class="row">
+                <label class="col-sm-3">Window 4</label>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control text-cash" placeholder="" value="5.00">
+                </div>
+              </div>
+              <div class="row">
+                <label class="col-sm-3">Payment</label>
+                <div class="col-sm-4">
+                  <select id="inputState" class="form-control">
+                    <option selected>Cash</option>
+                    <option>...</option>
+                  </select>
+                </div>
+                <div class="col-sm-3">
+                  <link rel="icon" type="image/x-icon" href="../../assets/image/pic_cash.png">
+                </div>
+              </div>
+              
+                <label class="balance offset-sm-1 col-sm-5">Balance</label>
+              
+              <button type="button" class="btn btn-checked-in offset-sm-1 col-sm-5">2,532.00</button>
+              <button type="button" class="btn btn-bule col-sm-5 ">Check Out</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
