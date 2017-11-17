@@ -12,6 +12,8 @@ export class HomeComponent implements OnInit {
   dueout: boolean;
   status: string;
 
+ testColor: '#7bb62f';
+
   data = [
     {
       name: 'Hummmonds, Johny',
@@ -65,10 +67,12 @@ export class HomeComponent implements OnInit {
     }
   ];
   
-  constructor() { }
+  constructor() { 
+
+  }
 
   ngOnInit() {
-    
+
   }
 
 }

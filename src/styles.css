@@ -27,12 +27,46 @@
     background-color: #737373;
     color: #ffffff;
 }
+.row{
+    width: 100%;
+    font-family: 'Prompt', sans-serif;
+}
+.navbar, .col{
+    font-family: 'Prompt', sans-serif;
+}
+.card{
+   width: 100%;
+   margin: 12px;
+}
+.card-body{
+    width: 100%;
+}
+div .card{
+    border: 1px solid #d2dae8;
+    background-color: white;
+}
+.card-title{
+    font-size: 20px;
+    color: #293b5a;
+}
+th{
+    color: 	#293b5a;
+}
 .form-control{
     /* margin-top: 3px; */
     margin-bottom: 6px;
     font-size: 14px;
-    color: #595959
+    color: #595959;
 }
+input.form-control{
+    border: 1px solid #d2dae8;
+}
+select#inputState.form-control{
+    border: 1px solid #d2dae8;
+}
+/* tbody{
+    border-top: 1px solid #d2dae8;
+} */
 .text-cash{
     margin-bottom: 6px;
     font-size: 14px;
@@ -47,22 +81,17 @@ label, .label{
     margin-top: 6px;
     /* margin-bottom: 3px; */
 }
-.card{
-   width: 100%;
-   margin: 10px;
-}
-.card-body{
-    border-radius: 4px;
-    border-style: solid;
-    border-color: #d2dae8;
-    background-color: white;
-}
-.card-title{
-    font-size: 20px;
+.Tile{
+    font-size: 24px;
     color: #293b5a;
+    padding: 0px;
+    margin: 0px;
 }
-th{
-    color: 	#293b5a;
+.Sub-Title{
+    font-size: 14px;
+    color: #97abcd;
+    padding: 0px;
+    margin: 0px;
 }
 .test{
     background-color: gray;
@@ -72,4 +101,14 @@ th{
 }
 .test3{
     background-color: rgb(230, 174, 174);
+}
+
+.pd{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    /* padding-bottom: 15px !important; */
+}
+.img-icon{
+    padding-top: 7px;
+
 }
