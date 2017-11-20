@@ -9,7 +9,8 @@ export class HomeComponent implements OnInit {
 
   data = [];
   bg_color = {};
-
+  date = new Date();
+  
   constructor() {
    
     this.data = [
