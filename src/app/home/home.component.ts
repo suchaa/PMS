@@ -7,68 +7,85 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  checkedout: boolean;
-  checkedin: boolean;
-  dueout: boolean;
-  status: string;
+  data = [];
+  bg_color = {};
 
- testColor: '#7bb62f';
+  constructor() {
+   
+    this.data = [
+      {
+        name: 'Hummmonds, Johny',
+        room: '05002',
+        status: 'checked out',
+        ck: '2'
+      },
+      {
+        name: 'Antiel, Rob',
+        room: '01265',
+        status: 'due out',
+        ck: '3'
+      },
+      {
+        name: 'Damn, Saimond',
+        room: '08525',
+        status: 'due out',
+        ck: '3'
+      },
+      {
+        name: 'Franciscy G, Gergo',
+        room: '04585',
+        status: 'checked in',
+        ck: '1'
+      },
+      {
+        name: 'Eben, Andrew',
+        room: '05322',
+        status: 'checked out',
+        ck: '2'
+      },
+      {
+        name: 'Bariga, Istan',
+        room: '03225',
+        status: 'due out',
+        ck: '3'
+      },
+      {
+        name: 'Acknann, Jereny',
+        room: '05142',
+        status: 'checked out',
+        ck: '2'
+      },
+      {
+        name: 'Hal, Martin',
+        room: '05847',
+        status: 'due out',
+        ck: '3'
+      },
+      {
+        name: 'Eben, Andrew',
+        room: '04524',
+        status: 'checked in',
+        ck: '1'
+      },
+      {
+        name: 'Anitek, Rob',
+        room: '05145',
+        status: 'checked in',
+        ck: '1'
+      }
+    ];
 
-  data = [
-    {
-      name: 'Hummmonds, Johny',
-      room: '05002',
-      status: 'checked out'
-    },
-    {
-      name: 'Antiel, Rob',
-      room: '01265',
-      status: 'due out'
-    },
-    {
-      name: 'Damn, Saimond',
-      room: '08525',
-      status: 'due out'
-    },
-    {
-      name: 'Franciscy G, Gergo',
-      room: '04585',
-      status: 'checked in'
-    },
-    {
-      name: 'Eben, Andrew',
-      room: '05322',
-      status: 'checked out'
-    },
-    {
-      name: 'Bariga, Istan',
-      room: '03225',
-      status: 'due out'
-    },
-    {
-      name: 'Acknann, Jereny',
-      room: '05142',
-      status: 'checked out'
-    },
-    {
-      name: 'Hal, Martin',
-      room: '05847',
-      status: 'due out'
-    },
-    {
-      name: 'Eben, Andrew',
-      room: '04524',
-      status: 'checked in'
-    },
-    {
-      name: 'Anitek, Rob',
-      room: '05145',
-      status: 'checked in'
+  }
+
+  getColor(status){
+    switch (status){
+      case '1' : 
+        return '#7bb62f';
+      case '2' : 
+        return '#de0808';
+      case '3' : 
+        return '#737373';
     }
-  ];
-  
-  constructor() { 
-
   }
 
   ngOnInit() {

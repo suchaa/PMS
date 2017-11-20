@@ -121,9 +121,8 @@
                 <td>{{item.name}}</td>
                 <td>&nbsp;&nbsp;{{item.room}}</td>
                 <td>
-                  <button type="button" class="btn btn-sm btn-block">{{item.status}}</button>
+                    <button type="button" [ngStyle]="{'background-color': getColor(item.ck)}" class="btn btn-sm btn-block btn-grid">{{item.status}}</button>
                 </td>
-                <!-- <link rel="icon" type="image/x-icon" href="../../assets/image/i_right.png"> -->
                 <td>
                   <i class="fa fa-angle-right" aria-hidden="true"></i>
                 </td>
