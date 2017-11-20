@@ -93,6 +93,26 @@ label, .label{
     padding: 0px;
     margin: 0px;
 }
+.nav-left{
+    width: 100px;
+    height: 100vh;
+    font-size: 12px;
+    text-align: center;
+    background-color: #4e6790;
+    
+}
+.navbar{
+    height: 83px;
+  
+}
+.navbar-brand{
+    /* background-color: #4e6790; */
+    width: 68px;
+}
+.nav-link{
+    /* border: 1px solid gray; */
+    color: #f7f7f7;
+}
 .test{
     background-color: gray;
 }
